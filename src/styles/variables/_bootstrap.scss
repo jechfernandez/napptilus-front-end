@@ -1,0 +1,19 @@
+/**
+ Overwrite Bootstrap default Variables
+ // /node_modules/bootstrap/scss/_variables.scss
+ ---------------------------------------------------------*/
+
+//Define Padding Left / Right
+//line 229
+$grid-gutter-width: 20px;
+
+//important: header needs to be fullwidth, padding must be overwritten in header.scss
+
+// Define the maximum width of `.container` for different screen sizes.
+//line 211
+$container-max-widths: (
+  sm: 749px,
+  md: 750px,
+  lg: 1279px,
+  xl: 1280px,
+);
