@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="container">
-      <div class="text-center text-muted p-3">
-        © {new Date().getFullYear()} Copyright: Gadget Garden
+    <footer className="container-flex footer">
+      <div class="text-center p-3 text-muted">
+        © {new Date().getFullYear()} Copyright: Gadget Garden, the Phone Store
       </div>
     </footer>
   );

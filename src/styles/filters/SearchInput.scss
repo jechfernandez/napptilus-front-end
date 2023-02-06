@@ -1,0 +1,10 @@
+@import "../settings.scss";
+
+.searchInput {
+  &__reset {
+    transform: scaleX(-1);
+    &:hover {
+      color: $light-coral;
+    }
+  }
+}

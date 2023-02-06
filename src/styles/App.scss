@@ -1,5 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
-
+@import "settings.scss";
 .App {
   text-align: center;
+  background-color: $white-smoke;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  width: 100vw;
+
+  transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
 }
