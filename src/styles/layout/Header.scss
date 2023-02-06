@@ -1,0 +1,19 @@
+@import "../settings.scss";
+
+.header {
+  background-color: $white-smoke;
+  max-height: auto;
+
+  &__logo {
+    width: 250px;
+  }
+
+  &__cart {
+    height: 50px;
+    font-size: x-large;
+
+    &:hover {
+      color: $light-coral;
+    }
+  }
+}

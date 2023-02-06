@@ -1,0 +1,13 @@
+@import "../settings.scss";
+
+.notFound {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 70vh;
+
+  &__img {
+    max-width: 62rem;
+    width: 100%;
+  }
+}
