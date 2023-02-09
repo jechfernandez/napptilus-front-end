@@ -1,6 +1,8 @@
-import React from 'react';
-import "../styles/ScrollTop.scss"
+import React from "react";
 import { FaArrowUp } from "react-icons/fa";
+
+import "../styles/ScrollTop.scss";
+
 
 function ScrollTop() {
   let mybutton;
@@ -26,10 +28,12 @@ function ScrollTop() {
     document.documentElement.scrollTop = 0;
   }
 
-    return (
-        <button id='scroll-top' className='scrollBtn ' onClick={backToTop}>
-            <span className='scrollBtn__arrow'><FaArrowUp /></span>
-        </button>
+  return (
+    <button id="scroll-top" className="scrollBtn " onClick={backToTop}>
+      <span className="scrollBtn__arrow">
+        <FaArrowUp />
+      </span>
+    </button>
   );
 }
 

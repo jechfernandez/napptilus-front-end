@@ -1,17 +1,14 @@
-// React
-import React from "react";
-import ReactDOM from "react-dom";
-import { HashRouter } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.scss';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-// components
-import App from "./components/App";
-
-// stylesheets
-import "./styles/index.scss";
-
-ReactDOM.render(
-  <HashRouter>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
     <App />
-  </HashRouter>,
-  document.getElementById("root")
+  </React.StrictMode>,
 );
+
+reportWebVitals();

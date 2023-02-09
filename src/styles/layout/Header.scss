@@ -5,7 +5,10 @@
   max-height: auto;
 
   &__logo {
-    width: 250px;
+    width: 150px;
+    @media (min-width: 576px) {
+      width: 250px;
+    }
   }
 
   &__cart {

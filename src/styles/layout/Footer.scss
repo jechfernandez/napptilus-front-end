@@ -1,0 +1,8 @@
+.footer {
+  &__text {
+    font-size: small;
+    @media (min-width: 576px) {
+      font-size: medium;
+    }
+  }
+}

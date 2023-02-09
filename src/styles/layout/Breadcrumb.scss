@@ -1,0 +1,14 @@
+@import "../settings.scss";
+
+.breadcrumb {
+  background-color: $white-smoke;
+  max-height: auto;
+
+  &__link {
+    text-decoration: none;
+  }
+}
+
+.breadcrumb__link.active {
+  font-weight: bold;
+}

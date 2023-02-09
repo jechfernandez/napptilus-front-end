@@ -1,9 +1,14 @@
 @import "../settings.scss";
 
 .phoneCard {
-  &__inner {
-    min-height: 31rem;
-    max-height: 31rem;
+  cursor: pointer;
+
+  &__img{
+    max-width: 80%;
+    @media (min-width: 576px) {
+    max-width: 100%;
+  }
+    
   }
 
   &__text {
@@ -24,15 +29,43 @@
     &-price {
       font-size: medium;
       color: $deep-space;
-      font-size: small;
     }
   }
 }
 
-.card.phoneCard__inner {
+.phoneCard__inner.bg-white {
   border-radius: 18px;
+  min-height: 32rem;
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
   transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+
+  @media (min-width: 376px) and (max-width: 400px) {
+    min-height: 30rem;
+  }
+  @media (min-width: 401px) and (max-width: 460px) {
+    min-height: 35rem;
+  }
+  @media (min-width: 461px) and (max-width: 520px) {
+    min-height: 38rem;
+  }
+  @media (min-width: 521px) and (max-width: 575px) {
+    min-height: 45rem;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    min-height: 24rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    min-height: 21rem;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    min-height: 22rem;
+  }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    min-height: 25rem;
+  }
+  @media (min-width: 1400px) {
+    min-height: 29rem;
+  }
 
   &:hover {
     box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);

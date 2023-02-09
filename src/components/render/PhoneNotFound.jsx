@@ -1,8 +1,9 @@
 import React from "react";
-
-import "../.././styles/render/PhoneNotFound.scss";
-
 import noResults from "../../assets/images/no-results.png";
+
+import "../../styles/render/PhoneNotFound.scss";
+
+
 
 const PhoneNotFound = (props) => {
   const { search } = props;
@@ -20,7 +21,7 @@ const PhoneNotFound = (props) => {
   );
 
   return (
-    <div className="notFound">
+    <div className="container notFound mt-3">
       <span>{textNotFound}</span>
       <img className="notFound__img" src={noResults} alt="no results" />
     </div>

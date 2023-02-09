@@ -1,0 +1,56 @@
+@import "../settings.scss";
+
+.detail {
+  justify-content: start;
+  border-radius: 5px;
+
+  &__container {
+    border-radius: 10px;
+    @media (min-width: 376px) and (max-width: 520px) {
+      border-radius: 10px;
+    }
+    @media (min-width: 521px) and (max-width: 575px) {
+      border-radius: 15px;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+      border-radius: 20px;
+    }
+    @media (min-width: 768px) {
+      border-radius: 30px;
+    }
+  }
+
+  &__img {
+    width: 60%;
+
+    @media (min-width: 576px) {
+      width: 50%;
+    }
+  }
+
+  &__btn {
+    background: none;
+    border: none;
+    color: $deep-space;
+
+    &:hover {
+      color: $light-coral;
+    }
+  }
+
+  &__separator {
+    border-bottom: 1px solid rgba(220, 214, 214, 0.891);
+  }
+
+  &__text {
+    text-align: start;
+
+    &-model {
+      font-weight: 500;
+    }
+
+    &-category {
+      font-weight: 600;
+    }
+  }
+}
