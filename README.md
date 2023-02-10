@@ -1,6 +1,24 @@
-# About this app
+# Gadget Garden
 
+Gadget garden is an app where you can browse a list of phones and their details.
 This project was created as a technical challenge for Napptilus. It was created using ReactJS and Bootstrap for styling purposes.
+
+## Requisites
+
+In order to be able to run the project, you must have npm and Node.js installed.
+
+## Instalation 
+
+To clone the Gadget Garden App, follow these steps:
+
+Clone the github repository:
+### `git clone https://github.com/jechfernandez/napptilus-front-end.git`
+
+Access the root folder
+### `cd napptilus-front-end`
+
+Install dependencies
+### `npm install`
 
 ## Available Scripts
 
@@ -28,3 +46,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+
